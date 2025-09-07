@@ -1,3 +1,8 @@
+---
+title: Sidebar Navigation
+---
+
+```
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
@@ -22,10 +27,10 @@ export default defineConfig({
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Create a project', slug: 'starlight/create-project' },
 						{ label: 'Sidebar navigation', slug: 'starlight/sidebar-navigation' },
-						{ label: 'Github', slug: 'starlight/github' },
 					],
 				},
 			],
 		}),
 	],
 });
+```
