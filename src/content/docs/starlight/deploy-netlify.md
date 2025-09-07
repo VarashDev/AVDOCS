@@ -1,5 +1,5 @@
 ---
-title: Github
+title: Deploy to Netlify
 ---
 
 `+ -> New Repository`

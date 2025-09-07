@@ -23,6 +23,7 @@ export default defineConfig({
 						{ label: 'Create a project', slug: 'starlight/create-project' },
 						{ label: 'Sidebar navigation', slug: 'starlight/sidebar-navigation' },
 						{ label: 'Github', slug: 'starlight/github' },
+						{ label: 'Depploy to Netlify', slug: 'starlight/deploy-netlify' },
 					],
 				},
 			],
