@@ -11,7 +11,7 @@ In VSCodee go to the "Source Control" tab, hit the 3 dots at the top of left nav
 Select "Add remote from GitHub".
 Choose the one you created for this project. 
 After it type in the Repository name.
-Hit the Commit button -> initial commit -> and press the Commit button
+Hit the Commit button. In the COMMIT_EDITMSG type in "initial commit" -> and press the Commit button
 You may see a message telling you that you have no “staged” commits, and asking you if you want to 
 stage them. Click Always and continue.
 Click Publish button
