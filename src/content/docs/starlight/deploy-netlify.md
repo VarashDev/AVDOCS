@@ -2,20 +2,5 @@
 title: Deploy to Netlify
 ---
 
-`+ -> New Repository`
+Add "New Project" button, "Import an existing project", "GitHub". Link "Configure the Netlify app on GitHub" at the bottom, "Select repository", "Save". Click the selected project in projects list, type in "Project name", hit the "Deploy" button. 
 
-Type in the "Repository name" and hit the "Create repository" button.
-
-## Commit your local code to GitHub
-In VSCodee go to the "Source Control" tab, hit the 3 dots at the top of left navigation (CHANGES)-> Remote > Add Remote.
-Select "Add remote from GitHub".
-Choose the one you created for this project. 
-After it type in the Repository name.
-Hit the Commit button. In the COMMIT_EDITMSG type in "initial commit" and press the Enter.
-Click Publish button.
-
-### push error 
-```
-git config http.postBuffer 524288000
-git pull && git push
-```
