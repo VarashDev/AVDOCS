@@ -12,8 +12,8 @@ export default defineConfig({
 					label: 'Astro',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'astro/example' },
-						{ label: 'Test Guide', slug: 'astro/test-guide' },
+						{ label: 'Create a project', slug: 'astro/create-project' },
+						{ label: 'Layout', slug: 'astro/layout' },
 					],
 				},
 				{
