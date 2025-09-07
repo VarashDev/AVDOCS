@@ -3,6 +3,10 @@ title: Layout
 ---
 
 ```diff title="layouts/Layout.astro"
+---
+import "../styles/global.css";
+const {title, description, url, type, site_name, ogimage} = Astro.props;
+---
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
@@ -83,6 +87,6 @@ ogimage={srcImage.src}
 				<br>
 			</center>
 
-<Layout />
+</Layout>
 ```
 `npm run dev`
