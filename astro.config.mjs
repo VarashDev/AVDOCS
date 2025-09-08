@@ -31,6 +31,7 @@ export default defineConfig({
 						items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Create a project', slug: 'django/create-project' },
+						{ label: 'Tailwind', slug: 'django/tailwind' },
 					],
 				},
 			],
