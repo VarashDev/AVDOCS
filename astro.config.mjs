@@ -26,6 +26,13 @@ export default defineConfig({
 						{ label: 'Depploy to Netlify', slug: 'starlight/deploy-netlify' },
 					],
 				},
+								{
+					label: 'Django',
+						items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'Create a project', slug: 'django/create-project' },
+					],
+				},
 			],
 		}),
 	],
