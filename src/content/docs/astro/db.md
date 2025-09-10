@@ -26,7 +26,7 @@ import { db, Comment } from 'astro:db';
 export default async function() {
   await db.insert(Comment).values([
     { author: 'Bob', body: 'Hope you like Astro DB!' },
-    { author: 'Mary, body: 'Enjoy!'},
+    { author: 'Mary', body: 'Enjoy!'},
   ])
 }
 ```
@@ -67,7 +67,7 @@ const comments = await db.select().from(Comment);
   comments.map(({ author, body }) => (
     <article>
       <p>Author: {author}</p>
-      <p>{body}</p>
+      <p>Body: {body}</p>
     </article>
   ))
 }
