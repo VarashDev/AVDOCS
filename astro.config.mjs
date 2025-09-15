@@ -15,6 +15,7 @@ export default defineConfig({
 						{ label: 'Create a project', slug: 'astro/create-project' },
 						{ label: 'Layout', slug: 'astro/layout' },
 						{ label: 'Astro DB', slug: 'astro/db' },
+						{ label: 'Starter Kit', slug: 'astro/starterkit' },
 					],
 				},
 				{
